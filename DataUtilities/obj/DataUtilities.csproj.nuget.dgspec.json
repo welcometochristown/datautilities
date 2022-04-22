@@ -1,0 +1,95 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\projects\\webservice\\source\\DataUtilities\\DataUtilities.csproj": {}
+  },
+  "projects": {
+    "C:\\projects\\webservice\\source\\DataUtilities\\DataUtilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\projects\\webservice\\source\\DataUtilities\\DataUtilities.csproj",
+        "projectName": "DataUtilities",
+        "projectPath": "C:\\projects\\webservice\\source\\DataUtilities\\DataUtilities.csproj",
+        "packagesPath": "C:\\Users\\tow30\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\webservice\\source\\DataUtilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\projects\\webservice\\source\\NuGet.Config",
+          "C:\\Users\\tow30\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\cmpa.org\\fs1\\WinProgs\\COMMON\\Investments\\Development\\NugetPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "Microsoft.Graph": {
+              "target": "Package",
+              "version": "[4.17.0, )"
+            },
+            "Microsoft.Graph.Core": {
+              "target": "Package",
+              "version": "[2.0.7, )"
+            },
+            "SSH.NET": {
+              "target": "Package",
+              "version": "[2020.0.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.15.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
